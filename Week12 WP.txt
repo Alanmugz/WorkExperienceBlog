@@ -1,0 +1,13 @@
+
+UnQuote Examples (8/Apr/15)
+
+UnQuote is an F# testing framework which cane be used in conjunction with some of the more popular 
+testing frameworks like FSCheck, NUnit or XUnit. With UnQuote a developer is able to see a print out 
+of all processes of a function which they are testing. 
+
+In the example below we evaluate the code on line 73 which has brackets so we know that this gets 
+evaluated first (1 + 2) and then the answer from the previous equation is divided by 3 so the answer 
+is obviously 1. With most testing frameworks we assert that a result is equal to an expected result. 
+This is also the same with UnQuote but it is capable of giving a print out of each equation as it 
+is evaluated as we see in the second snippet. This negates the need for a programmer to debug the 
+his or hers code to find a problem. This is UnQuote in its simplest form.
